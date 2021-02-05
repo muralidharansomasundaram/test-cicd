@@ -1,0 +1,10 @@
+kind: BuildConfig
+apiVersion: v1
+metadate:
+    name: script-checkout
+    namespace: cicd
+spec:
+  source:
+    git:
+      uri: "git@
+
