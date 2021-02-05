@@ -11,8 +11,10 @@ spec:
     jenkinsPipelineStratagey:
       jenkinsfilePath: Jenkinsfile
       env:
-        - name: " container_name: "
+        - name: "container_name"
           value: testcicd
-        - name: " git_branch" 
-          value: " master"
+        - name: "git_branch" 
+          value:  master
+        - name: "container_namespace"
+          value: cicd
 
